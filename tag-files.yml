@@ -4,7 +4,8 @@ platform: linux
 image_resource:
   type: docker-image
   source:  
-  params: {repository: dhaneshande/nodeappbuild, tag: some-files/.txt}
+   repository: dhaneshande/nodeappbuild 
+   tag: "some-files/.txt"
 
 inputs:
 - name: resource-tutorial
