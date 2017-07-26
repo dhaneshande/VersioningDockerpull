@@ -49,7 +49,7 @@ resources:
 - name: resource-tutorial
   type: git
   source:
-    uri: https://github.com/dhaneshande/VersioningPart1.git
+    uri: https://github.com/dhaneshande/VersioningDockerpull.git
 - name: hello-world-docker-image
   type: docker-image
   source:
